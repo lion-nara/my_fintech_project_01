@@ -1,0 +1,40 @@
+/* 배경 톤 */
+body {
+    background-color: #f0f4ff; /* 아주 옅은 블루 */
+  }
+  
+  /* 네비게이션 바 */
+  .navbar {
+    background-color: #003366 !important; /* 코발트 블루 */
+  }
+  .navbar-brand, .navbar-nav .nav-link {
+    color: #ffffff !important;
+  }
+  .navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #cce6ff !important;
+  }
+  
+  /* 버튼 */
+  .btn-primary {
+    background-color: #004080;
+    border-color: #004080;
+  }
+  .btn-primary:hover {
+    background-color: #0059b3;
+    border-color: #0059b3;
+  }
+  
+  /* 카드와 리스트 */
+  .card, .list-group-item {
+    border-radius: 0.8rem;
+    border: 1px solid #cce0ff;
+  }
+  .card-header {
+    background-color: #e6f0ff;
+  }
+  
+  /* 제목 */
+  h2, h3 {
+    color: #003366;
+  }
+  
