@@ -1,0 +1,11 @@
+{% extends "common/base.html" %}
+{% block title %}사진 삭제{% endblock %}
+{% block content %}
+<h2>사진 삭제</h2>
+<p>정말 삭제하시겠습니까?</p>
+<img src="{{ photo.image.url }}" class="img-fluid rounded mb-3">
+<form method="post">{% csrf_token %}
+  <button class="btn btn-danger">삭제</button>
+  <a class="btn btn-link" href="{% url 'photos:list' %}">취소</a>
+</form>
+{% endblock %}

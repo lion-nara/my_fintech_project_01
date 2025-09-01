@@ -1,0 +1,11 @@
+{% extends "common/base.html" %}
+{% block title %}메모 삭제{% endblock %}
+{% block content %}
+<h2>메모 삭제</h2>
+<p class="text-muted">정말 삭제하시겠습니까?</p>
+<form method="post">
+  {% csrf_token %}
+  <button class="btn btn-danger">삭제</button>
+  <a class="btn btn-link" href="{% url 'notes:list' %}">취소</a>
+</form>
+{% endblock %}
