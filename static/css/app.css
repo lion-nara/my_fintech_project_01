@@ -1,0 +1,19 @@
+/* # 연습용
+
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+} */
